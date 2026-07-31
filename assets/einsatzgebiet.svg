@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820" role="img" aria-labelledby="title desc">
+  <title id="title">Schematische Karte des Einsatzgebiets von SozioVital</title>
+  <desc id="desc">Ribnitz-Damgarten liegt im Mittelpunkt eines ungefähr 35 Kilometer großen Einsatzradius mit Barth, Graal-Müritz und Rostock in der Umgebung.</desc>
+  <defs>
+    <clipPath id="mapCircle"><circle cx="410" cy="420" r="340"/></clipPath>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bde1ee"/><stop offset="1" stop-color="#8ecbdc"/></linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9eee1"/><stop offset="1" stop-color="#b8d9c5"/></linearGradient>
+  </defs>
+  <g clip-path="url(#mapCircle)">
+    <rect width="820" height="820" fill="url(#water)"/>
+    <path d="M-20 250C105 222 165 280 248 287c95 8 138-44 227-36 89 8 139 70 235 50 50-10 93-2 132 18v520H-20Z" fill="url(#land)"/>
+    <path d="M0 250c132-30 167 31 257 30 86-1 133-46 218-34 92 13 146 71 247 46 38-9 76-3 118 20" fill="none" stroke="#f8fbfa" stroke-width="9" opacity=".78"/>
+    <path d="M85 620C203 555 280 522 388 501c120-24 205-80 341-90" fill="none" stroke="#7193aa" stroke-width="10" opacity=".88"/>
+    <path d="M100 696C218 654 336 621 451 624c104 3 198 30 305 12" fill="none" stroke="#7193aa" stroke-width="8" opacity=".72"/>
+    <path d="M244 290c58 87 77 163 76 256M615 277c-60 78-83 153-87 255" fill="none" stroke="#7193aa" stroke-width="7" opacity=".68"/>
+    <path d="M75 352c105 52 202 88 321 96 120 8 214-14 340-64" fill="none" stroke="#80a6b6" stroke-width="5" stroke-dasharray="16 14" opacity=".7"/>
+    <circle cx="431" cy="407" r="300" fill="#376b9a" fill-opacity=".13" stroke="#4e6db7" stroke-width="5"/>
+    <g fill="#243b42" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      <text x="82" y="548" font-size="37" style="paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round">Rostock</text>
+      <text x="116" y="380" font-size="29" style="paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round">Graal-Müritz</text>
+      <text x="503" y="261" font-size="32" style="paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round">Barth</text>
+      <text x="365" y="492" font-size="30" style="paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round">Ribnitz-Damgarten</text>
+    </g>
+    <g fill="#fff" stroke="#33505a" stroke-width="4">
+      <circle cx="148" cy="520" r="10"/><circle cx="196" cy="356" r="8"/><circle cx="548" cy="279" r="8"/>
+    </g>
+  </g>
+  <circle cx="410" cy="420" r="340" fill="none" stroke="#ffffff" stroke-width="16"/>
+  <circle cx="410" cy="420" r="340" fill="none" stroke="#28594f" stroke-width="4" opacity=".35"/>
+  <g transform="translate(372 315)">
+    <path d="M38 0C17 0 0 17 0 38c0 31 38 77 38 77s38-46 38-77C76 17 59 0 38 0Z" fill="#d8473f" stroke="#a72e29" stroke-width="5"/>
+    <circle cx="38" cy="38" r="14" fill="#a51919"/>
+  </g>
+  <g transform="translate(578 664)">
+    <rect width="166" height="68" rx="34" fill="#fff" opacity=".95"/>
+    <text x="83" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#123c35">ca. 35 km</text>
+    <text x="83" y="51" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#516963">Einsatzradius</text>
+  </g>
+</svg>
